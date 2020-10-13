@@ -59,5 +59,13 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@types/react-router-dom": "^5.1.6",
+    "firebase": "^7.23.0",
+    "react-firebase-hooks": "^2.2.0",
+    "react-router-dom": "^5.2.0"
+  }
 }
