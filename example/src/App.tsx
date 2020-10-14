@@ -2,16 +2,16 @@ import React from 'react'
 
 import { Forum, SampleSignInManager } from 'fora'
 import 'fora/dist/index.css'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <SampleSignInManager />
         <br />
         <Forum/>
-      </Router>
+      </BrowserRouter>
     </>
   )
 }

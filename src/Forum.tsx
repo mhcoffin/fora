@@ -230,13 +230,13 @@ type SectionHeaderProps = {
 }
 
 const SectionHeader = ({
-                         id,
-                         name,
-                         topTime,
-                         bottomTime,
-                         index,
-                         threadCount
-                       }: SectionHeaderProps) => {
+  id,
+  name,
+  topTime,
+  bottomTime,
+  index,
+  threadCount
+}: SectionHeaderProps) => {
   const page = Math.floor(index / pageSize) + 1
   const totalPages = Math.floor(threadCount / pageSize) + 1
 
@@ -327,8 +327,8 @@ const SectionHeader = ({
 }
 
 const ThreadListItem = ({
-                          thread
-                        }: {
+  thread
+}: {
   thread: firebase.firestore.DocumentData
 }) => {
   const queryParams = encodeQueryParams({
@@ -436,13 +436,13 @@ type ThreadHeaderProps = {
 }
 
 const ThreadHeader = ({
-                        id,
-                        name,
-                        index,
-                        replyCount,
-                        topTime,
-                        bottomTime
-                      }: ThreadHeaderProps) => {
+  id,
+  name,
+  index,
+  replyCount,
+  topTime,
+  bottomTime
+}: ThreadHeaderProps) => {
   console.log('name: ', name)
   const page = Math.floor(index / pageSize) + 1
   const totalPages = Math.floor(replyCount / pageSize) + 1

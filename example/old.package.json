@@ -1,5 +1,5 @@
 {
-  "name": "forum-example",
+  "name": "fora-example",
   "homepage": ".",
   "version": "0.0.0",
   "private": true,
@@ -10,9 +10,6 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
-    "@firebase/firestore": "^1.17.1",
-    "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "file:../node_modules/@testing-library/jest-dom",
     "@testing-library/react": "file:../node_modules/@testing-library/react",
     "@testing-library/user-event": "file:../node_modules/@testing-library/user-event",
@@ -20,10 +17,10 @@
     "@types/node": "file:../node_modules/@types/node",
     "@types/react": "file:../node_modules/@types/react",
     "@types/react-dom": "file:../node_modules/@types/react-dom",
-    "firebase": "^7.21.1",
     "fora": "file:..",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
+    "react-firebase-hooks": "file:../node_modules/react-firebase-hooks",
     "react-scripts": "file:../node_modules/react-scripts",
     "typescript": "file:../node_modules/typescript"
   },
