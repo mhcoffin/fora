@@ -1,5 +1,5 @@
 {
-  "name": "forum-example",
+  "name": "fora-example",
   "homepage": ".",
   "version": "0.0.0",
   "private": true,
@@ -10,9 +10,6 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
-    "@firebase/firestore": "file:../node_modules/@firebase/firestore",
-    "@material-ui/core": "file:../node_modules/@material-ui/core",
-    "@material-ui/icons": "file:../node_modules/@material-ui/icons",
     "@testing-library/jest-dom": "file:../node_modules/@testing-library/jest-dom",
     "@testing-library/react": "file:../node_modules/@testing-library/react",
     "@testing-library/user-event": "file:../node_modules/@testing-library/user-event",
@@ -20,10 +17,10 @@
     "@types/node": "file:../node_modules/@types/node",
     "@types/react": "file:../node_modules/@types/react",
     "@types/react-dom": "file:../node_modules/@types/react-dom",
-    "firebase": "file:../node_modules/firebase",
     "fora": "file:..",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
+    "react-firebase-hooks": "file:../node_modules/react-firebase-hooks",
     "react-scripts": "file:../node_modules/react-scripts",
     "typescript": "file:../node_modules/typescript"
   },

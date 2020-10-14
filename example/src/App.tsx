@@ -1,10 +1,19 @@
 import React from 'react'
 
-import { ExampleComponent } from 'fora'
+import { Forum, SampleSignInManager } from 'fora'
 import 'fora/dist/index.css'
+import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <BrowserRouter>
+        <SampleSignInManager />
+        <br />
+        <Forum/>
+      </BrowserRouter>
+    </>
+  )
 }
 
 export default App

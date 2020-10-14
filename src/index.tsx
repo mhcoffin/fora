@@ -1,10 +1,4 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+import { Forum } from './Forum'
+import { SampleSignInManager } from './SampleSignInManager'
 
-interface Props {
-  text: string
-}
-
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { Forum, SampleSignInManager }
